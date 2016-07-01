@@ -37,7 +37,6 @@ function print(){
         function oneByOne() {
             var screen = paper.substr(0, count);
             document.getElementById("content").innerText  = screen;
-            console.log(document.getElementById("content").innerText)
             count++;
             if (count > paper.length)
                 return;
